@@ -14,6 +14,7 @@ notes:
 
 
 Instructions:
+```
 To use DepoBoxTool
     1. Build: python setup.py. It will create build, dist and DepoBoxTool.egg-info directories in your current path.
 
@@ -38,6 +39,7 @@ To use DepoBoxTool
     5. **Everytime if you change code in src/, you must remove old packages and rebuild, or it will not take effects.**
         1. follow step 4
         2. then redo step 1
+```
         
 DepoBoxToolv2.0 structure
 ```bash
