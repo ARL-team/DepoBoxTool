@@ -13,29 +13,6 @@ notes:
    However, potential bugs could be existed in the old version.
 
 
-DepoBoxToolv2.0 structure
-
-packaging_tutorial/
-├── README.md
-├── setup.py
-├── src/
-│   └── DepoBoxTool/
-│   |   ├── __init__.py
-│   |   └── func_bins.py
-│   |   └── func_evals.py
-│   |   └── func_lucs.py
-│   |   └── func_models.py
-├── data/
-│   └── obs_combined.csv
-├── scripts/
-│   ├── main.py
-│   └── example_eval_metrics.py
-│   └── example_plt_VdoverDp_MOD_for_particle_number_multipanels.py
-│   └── example_plt_VdoverDp_SID_cf_singlepanel.py
-│   └── example_plt_VdoverDp_SID_df_singlepanel.py
-│   └── example_plt_VdoverDp_SID_water_singlepanel.py
-│   └── example_plt_VdoverDp_SID_grass_singlepanel.py
-
 Instructions:
 To use DepoBoxTool
     1. Build: python setup.py. It will create build, dist and DepoBoxTool.egg-info directories in your current path.
@@ -61,4 +38,27 @@ To use DepoBoxTool
     5. **Everytime if you change code in src/, you must remove old packages and rebuild, or it will not take effects.**
         1. follow step 4
         2. then redo step 1
-
+        
+DepoBoxToolv2.0 structure
+```bash
+packaging_tutorial/
+├── README.md
+├── setup.py
+├── src/
+│   └── DepoBoxTool/
+│   |   ├── __init__.py
+│   |   └── func_bins.py
+│   |   └── func_evals.py
+│   |   └── func_lucs.py
+│   |   └── func_models.py
+├── data/
+│   └── obs_combined.csv
+├── scripts/
+│   ├── main.py
+│   └── example_eval_metrics.py
+│   └── example_plt_VdoverDp_MOD_for_particle_number_multipanels.py
+│   └── example_plt_VdoverDp_SID_cf_singlepanel.py
+│   └── example_plt_VdoverDp_SID_df_singlepanel.py
+│   └── example_plt_VdoverDp_SID_water_singlepanel.py
+│   └── example_plt_VdoverDp_SID_grass_singlepanel.py
+```
