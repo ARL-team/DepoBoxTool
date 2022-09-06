@@ -17,7 +17,7 @@ Improving the particle dry deposition scheme in the CMAQ photochemical modeling 
 # Instructions
 ```
 To use DepoBoxTool
-    1. Build: python setup.py. It will create build, dist and DepoBoxTool.egg-info directories in your current path.
+    1. Build: python setup.py install. It will create build, dist and DepoBoxTool.egg-info directories in your current path.
 
     2. Run: cd scripts/, example scripts are included to help you understand how to call the function from src and 
        output results. You are welcome to change whatever you like in example scripts. But I suggest to
