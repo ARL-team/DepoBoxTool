@@ -10,7 +10,7 @@ notes:
 1. DepoBoxtool has been updated to version 2.0. Follow-up updates on github will be based on DepoBoxToolv2.0.
 2. DepoBoxToolv1.0 is deprecated. Archive version can be found from 
    Shu, Qian. (2021). Particle dry deposition algorithms in CMAQ version 5.3: characterization of critical parameters and land use dependence using DepoBoxTool version 1.0. https://doi.org/10.5281/zenodo.4749636
-   However, potential bugs could be existed in the old version. 
+   However, potential bugs could be existed in the old version.
 
 
 DepoBoxToolv2.0 structure
