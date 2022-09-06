@@ -1,20 +1,20 @@
-**Overview**
+# Overview
 Author: Qian Shu
 Date: 09/01/2022
 contact: shumarkq@gmail.com
 
-The model is developed for CMAQ dry deposition improvment projects (v5.3). See more details and citation, please use the recent paper below as reference. 
-Shu, Q., Murphy, B., Schwede, D., Henderson, B.H., Pye, H.O., Appel, K.W., Khan, T.R. and Perlinger, J.A., 2022. 
-Improving the particle dry deposition scheme in the CMAQ photochemical modeling system. Atmospheric Environment, p.119343.
+DepoBoxToolv is an open-source, python-based tool to create a box model for testing different dry deposition algorithms over various land use categories. It can be easily used, modified, and distributed throughout the research community to help translate between deposition models and measurements. The model is developed for CMAQ dry deposition improvment projects (v5.3). 
 
-notes:
+For future use and citation, please see recent published paper.
+**Shu, Q., Murphy, B., Schwede, D., Henderson, B.H., Pye, H.O., Appel, K.W., Khan, T.R. and Perlinger, J.A., 2022. 
+Improving the particle dry deposition scheme in the CMAQ photochemical modeling system. Atmospheric Environment, p.119343.https://doi.org/10.1016/j.atmosenv.2022.119343**
+
+# Notes
 1. DepoBoxtool has been updated to version 2.0. Follow-up updates on github will be based on DepoBoxToolv2.0.
 2. DepoBoxToolv1.0 is deprecated. Archive version can be found from 
-   Shu, Qian. (2021). Particle dry deposition algorithms in CMAQ version 5.3: characterization of critical parameters and land use dependence using DepoBoxTool version 1.0. https://doi.org/10.5281/zenodo.4749636
-   However, potential bugs could be existed in the old version.
+**Shu, Qian. (2021). Particle dry deposition algorithms in CMAQ version 5.3: characterization of critical parameters and land use dependence using    DepoBoxTool version 1.0. https://doi.org/10.5281/zenodo.4749636**
 
-
-Instructions:
+# Instructions
 ```
 To use DepoBoxTool
     1. Build: python setup.py. It will create build, dist and DepoBoxTool.egg-info directories in your current path.
@@ -42,7 +42,7 @@ To use DepoBoxTool
         2. then redo step 1
 ```
         
-DepoBoxToolv2.0 structure
+# DepoBoxToolv2.0 structure
 ```bash
 packaging_tutorial/
 ├── README.md
